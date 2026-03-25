@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: while循环">
-      <change afterPath="$PROJECT_DIR$/第二章/08. for循环.py" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: for循环">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/06. match模式匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/06. match模式匹配.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/07. while循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/07. while循环.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/08. for循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/08. for循环.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,9 @@
     &quot;accountId&quot;: &quot;30d797bb-b318-4f90-95b3-808c6b0d557a&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/第二章/08. for循环.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -220,7 +222,7 @@
       <workItem from="1773997540062" duration="1642000" />
       <workItem from="1774254032630" duration="1521000" />
       <workItem from="1774335553164" duration="10739000" />
-      <workItem from="1774426866482" duration="3937000" />
+      <workItem from="1774426866482" duration="10234000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -262,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774428460841</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: for循环">
+      <option name="closed" value="true" />
+      <created>1774430853736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774430853736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +311,19 @@
     <MESSAGE value="refactor: 修改if条件判断" />
     <MESSAGE value="feat: match模式匹配" />
     <MESSAGE value="feat: while循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: while循环" />
+    <MESSAGE value="feat: for循环" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: for循环" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/第二章/08. for循环.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_project01$05__if.coverage" NAME="05. if条件判断 覆盖结果" MODIFIED="1774340545158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
@@ -309,7 +331,7 @@
     <SUITE FILE_PATH="coverage/py_project01$03_.coverage" NAME="03.输入与输出 覆盖结果" MODIFIED="1773929663269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$06__match.coverage" NAME="06. match模式匹配 覆盖结果" MODIFIED="1774345659243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$07__while.coverage" NAME="07. while循环 覆盖结果" MODIFIED="1774428366885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
-    <SUITE FILE_PATH="coverage/py_project01$08__for.coverage" NAME="08. for循环 覆盖结果" MODIFIED="1774430775015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
+    <SUITE FILE_PATH="coverage/py_project01$08__for.coverage" NAME="08. for循环 覆盖结果" MODIFIED="1774444643656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$04_.coverage" NAME="04.运算符 覆盖结果" MODIFIED="1773994961460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$01_.coverage" NAME="01.字面量与变量 覆盖结果" MODIFIED="1773909115295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
   </component>
