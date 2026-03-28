@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 数据容器-dict">
-      <change afterPath="$PROJECT_DIR$/第二章/16. 函数基础.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 函数基础">
+      <change afterPath="$PROJECT_DIR$/第二章/17. 函数案例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/16. 函数基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/16. 函数基础.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +237,7 @@
       <workItem from="1774426866482" duration="14961000" />
       <workItem from="1774511324207" duration="20029000" />
       <workItem from="1774597241564" duration="22776000" />
-      <workItem from="1774680151046" duration="8580000" />
+      <workItem from="1774680151046" duration="8669000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -351,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774624078560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: 函数基础">
+      <option name="closed" value="true" />
+      <created>1774690790939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774690790939</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,8 @@
     <MESSAGE value="feat: 数据容器-tuple" />
     <MESSAGE value="feat: 数据容器-set" />
     <MESSAGE value="feat: 数据容器-dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 数据容器-dict" />
+    <MESSAGE value="feat: 函数基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 函数基础" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_project01$03_.coverage" NAME="03.输入与输出 覆盖结果" MODIFIED="1773929663269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
