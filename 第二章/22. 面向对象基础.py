@@ -71,3 +71,54 @@ print("提车的总费用为: ", total1)
 
 total2 = c1.total_price(0.9)
 print("提车的总费用为: ", total2)
+
+
+# ----------------------------------------- 定义类 魔法方法 -----------------------------------------
+class Car:
+    def __init__(self, c_color, c_brand, c_name, c_price):
+        self.color = c_color
+        self.brand = c_brand
+        self.name = c_name
+        self.price = c_price
+        print("Car 类型的对象初始化完毕, 对象属性已经添加完毕 .")
+
+    # 定义实例方法
+    def running(self):
+        print(f"{self.brand} {self.name} 正在高速行驶中...")
+
+    def total_price(self, discount, rate = 0.1):
+        total_cost = self.price * discount + rate * self.price
+        return total_cost
+
+    # 魔法方法
+    def __str__(self):
+        return f"{self.color} {self.brand} {self.name} {self.price}"
+
+    def __eq__(self, other):
+        return self.color == other.color and self.brand == other.brand and self.name == other.name and self.price == other.price
+
+    def __lt__(self, other):
+        return self.price < other.price
+
+# 测试 - 未加魔法方法前
+# c1 = Car("white", "BYD", "汉", 180000)
+# print(c1) # <__main__.Car object at 0x00000223059ED940>
+#
+# c2 = Car("white", "BYD", "汉", 180000)
+# print(c2) # <__main__.Car object at 0x000002230732D6D0>
+#
+# print(c1 == c2) # False
+#
+# print(c1 < c2) # TypeError: '<' not supported between instances of 'Car' and 'Car'
+
+# 测试 - 加了魔法方法后
+c1 = Car("white", "BYD", "汉", 180000)
+print(c1) # white BYD 汉 180000
+
+c2 = Car("white", "BYD", "汉", 180000)
+print(c2) # white BYD 汉 180000
+
+print(c1 == c2) # True
+#
+print(c1 < c2) # False
+print(c1 > c2) # False 把__lt__的方法return取反即可
