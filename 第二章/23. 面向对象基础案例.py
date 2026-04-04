@@ -132,22 +132,28 @@ class EduManagement:
             print()
 
             choice = input("请选择要执行的操作, 输入1-6: ")
-            match choice:
-                case "1": # 添加学生
-                    self.add_student()
-                case "2": # 修改学生
-                    self.update_student()
-                case "3": # 删除学生
-                    self.delete_student()
-                case "4": # 查询指定学生
-                    self.query_student()
-                case "5": # 查询所有学生
-                    self.list_student()
-                case "6": # 退出系统
-                    print("Bye~")
-                    break
-                case _: # 其他情况
-                    print("输入错误, 请选择1-6之间的菜单功能!")
+            try:
+                match choice:
+                    case "1": # 添加学生
+                        self.add_student()
+                    case "2": # 修改学生
+                        self.update_student()
+                    case "3": # 删除学生
+                        self.delete_student()
+                    case "4": # 查询指定学生
+                        self.query_student()
+                    case "5": # 查询所有学生
+                        self.list_student()
+                    case "6": # 退出系统
+                        print("Bye~")
+                        break
+                    case _: # 其他情况
+                        print("输入错误, 请选择1-6之间的菜单功能!")
+            except ValueError as e:
+                print("输入的数据有问题, 请检查, 然后重新输入!!!")
+                # continue # 如果try except后面还有别的要运行的代码, 要加上continue, 但是这里不需要
+            except Exception as e:
+                print("程序运行出错了, 请重新选择~")
 
 # 测试
 if __name__ == '__main__':

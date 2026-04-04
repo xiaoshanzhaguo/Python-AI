@@ -128,20 +128,25 @@ class ShoppingCart:
 
             my_choice = input("请输入要进行的操作(1-5): ")
 
-            match my_choice:
-                case "1": # 添加商品
-                    self.add_goods()
-                case "2": # 修改商品
-                    self.update_goods()
-                case "3": # 删除商品
-                    self.delete_goods()
-                case "4": # 查询购物车
-                    self.query_all_goods()
-                case "5": # 退出系统
-                    print("感谢使用购物车管理系统, 再见!")
-                    break
-                case _: # 其他情况
-                    print("非法操作, 请选择1-5之间的菜单功能!")
+            try: # 异常处理, 学了异常后, 才跟着答案添加的
+                match my_choice:
+                    case "1": # 添加商品
+                        self.add_goods()
+                    case "2": # 修改商品
+                        self.update_goods()
+                    case "3": # 删除商品
+                        self.delete_goods()
+                    case "4": # 查询购物车
+                        self.query_all_goods()
+                    case "5": # 退出系统
+                        print("感谢使用购物车管理系统, 再见!")
+                        break
+                    case _: # 其他情况
+                        print("非法操作, 请选择1-5之间的菜单功能!")
+            except ValueError:
+                print("输入的数据有问题, 请检查后, 重新输入!!!")
+            except Exception:
+                print("对不起, 程序运行异常, 请重新选择!!!")
 
 if __name__ == "__main__":
     shopping_cart = ShoppingCart()
