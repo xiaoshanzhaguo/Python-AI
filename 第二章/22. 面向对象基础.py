@@ -35,3 +35,39 @@ print(c1.__dict__)
 
 c2 = Car("white", "奔驰", "E300", 450000)
 print(c2.__dict__)
+
+
+# ----------------------------------------- 定义类 实例方法 -----------------------------------------
+class Car:
+    def __init__(self, c_color, c_brand, c_name, c_price):
+        self.color = c_color
+        self.brand = c_brand
+        self.name = c_name
+        self.price = c_price
+        print("Car 类型的对象初始化完毕, 对象属性已经添加完毕 .")
+
+    # 定义实例方法
+    def running(self):
+        print(f"{self.brand} {self.name} 正在高速行驶中...")
+
+    def total_price(self, discount, rate = 0.1):
+        """
+        计算汽车的总费用, 包含两个部分: 车的价格, 税费
+        :param discount: 折扣
+        :param rate: 税率
+        :return: 提车的总费用
+        """
+        total_cost = self.price * discount + rate * self.price
+        return total_cost
+
+# 测试
+c1 = Car("red", "BMW", "X7", 800000)
+
+# 调用对象中的方法
+c1.running()
+
+total1 = c1.total_price(0.9, 0.1)
+print("提车的总费用为: ", total1)
+
+total2 = c1.total_price(0.9)
+print("提车的总费用为: ", total2)
