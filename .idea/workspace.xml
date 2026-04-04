@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 面向对象基础-实例方法">
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 面向对象基础-魔法方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/第二章/22. 面向对象基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/22. 面向对象基础.py" afterDir="false" />
     </list>
@@ -255,7 +255,7 @@
       <workItem from="1774680151046" duration="12472000" />
       <workItem from="1774788947106" duration="4811000" />
       <workItem from="1774949524853" duration="12070000" />
-      <workItem from="1775214111982" duration="7354000" />
+      <workItem from="1775214111982" duration="8073000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -457,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775292139103</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: 面向对象基础-魔法方法">
+      <option name="closed" value="true" />
+      <created>1775295910297</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1775295910297</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6." />
     <MESSAGE value="feat: if条件判断&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6." />
     <MESSAGE value="refactor: 修改if条件判断" />
     <MESSAGE value="feat: match模式匹配" />
@@ -516,7 +523,8 @@
     <MESSAGE value="feat: 模块-包(package)" />
     <MESSAGE value="feat: 面向对象基础-类与对象" />
     <MESSAGE value="feat: 面向对象基础-实例方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 面向对象基础-实例方法" />
+    <MESSAGE value="feat: 面向对象基础-魔法方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 面向对象基础-魔法方法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_project01$03_.coverage" NAME="03.输入与输出 覆盖结果" MODIFIED="1773929663269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
@@ -524,7 +532,7 @@
     <SUITE FILE_PATH="coverage/py_project01$12___str.coverage" NAME="12. 数据容器-str 覆盖结果" MODIFIED="1774529234721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$13___tuple.coverage" NAME="13. 数据容器-tuple 覆盖结果" MODIFIED="1774535847890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$16__.coverage" NAME="16. 函数基础 覆盖结果" MODIFIED="1774690301343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
-    <SUITE FILE_PATH="coverage/py_project01$22__.coverage" NAME="22. 面向对象基础 覆盖结果" MODIFIED="1775295822481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
+    <SUITE FILE_PATH="coverage/py_project01$22__.coverage" NAME="22. 面向对象基础 覆盖结果" MODIFIED="1775296580796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$19__2.coverage" NAME="19. 函数进阶2 覆盖结果" MODIFIED="1774964343815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_project01$05__if.coverage" NAME="05. if条件判断 覆盖结果" MODIFIED="1774340545158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$02_.coverage" NAME="02.常见数据类型 覆盖结果" MODIFIED="1773928403395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />

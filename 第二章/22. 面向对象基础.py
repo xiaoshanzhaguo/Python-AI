@@ -122,3 +122,35 @@ print(c1 == c2) # True
 #
 print(c1 < c2) # False
 print(c1 > c2) # False 把__lt__的方法return取反即可
+
+
+# ----------------------------------------- 实例属性 与 类属性 -----------------------------------------
+class Car:
+    # 类属性
+    wheel = 4 # 轮胎数量
+    tax_rate = 0.1 # 购置税税率
+
+    def __init__(self, c_color, c_brand, c_name, c_price):
+        # 实例属性
+        self.color = c_color
+        self.brand = c_brand
+        self.name = c_name
+        self.price = c_price
+        # self.wheel = 2
+
+    # 定义实例方法
+    def running(self):
+        print(f"{self.brand} {self.name} 正在高速行驶中...")
+
+    def total_price(self, discount, rate = 0.1):
+        total_cost = self.price * discount + rate * self.price
+        return total_cost
+
+# 测试
+c1 = Car("white", "BYD", "汉", 180000)
+print(c1.brand)
+print(c1.wheel) # 通过实例对象, 查找属性时, 会先查找实例属性; 实例属性不存在, 再查找类属性
+
+# 通过类名访问类属性
+print(Car.wheel)
+print(Car.tax_rate)
