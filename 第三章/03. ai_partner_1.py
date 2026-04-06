@@ -25,7 +25,7 @@ st.logo("resources/logo.png")
 system_prompt = "你是一名非常可爱的AI助理，你的名字叫小甜甜，请你使用温柔可爱的语气回答用户的问题"
 
 # 初始化聊天信息
-if 'messages' not in st.session_state:
+if "message" not in st.session_state:
     st.session_state.messages = []
 
 # 展示聊天信息
