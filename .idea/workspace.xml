@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI智能伴侣-侧边栏功能, 并修改了基本布局与会话记忆里的一部分代码">
-      <change afterPath="$PROJECT_DIR$/第三章/02. 文件操作入门.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三章/resources/望庐山瀑布.txt" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 文件操作入门">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第三章/02. 文件操作入门.py" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/02. 文件操作入门.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第三章/resources/静夜思.txt" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/resources/静夜思.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +275,7 @@
       <workItem from="1775392378735" duration="657000" />
       <workItem from="1775393051647" duration="3432000" />
       <workItem from="1775456911435" duration="6481000" />
-      <workItem from="1775466179504" duration="11064000" />
+      <workItem from="1775466179504" duration="12236000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -557,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775478632010</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: 文件操作入门">
+      <option name="closed" value="true" />
+      <created>1775479973377</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1775479973377</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 数据容器-str" />
     <MESSAGE value="feat: 数据容器-tuple" />
     <MESSAGE value="feat: 数据容器-set" />
     <MESSAGE value="feat: 数据容器-dict" />
@@ -600,10 +607,11 @@
     <MESSAGE value="feat: AI智能伴侣-基本交互" />
     <MESSAGE value="feat: AI智能伴侣-会话记忆" />
     <MESSAGE value="feat: AI智能伴侣-侧边栏功能, 并修改了基本布局与会话记忆里的一部分代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AI智能伴侣-侧边栏功能, 并修改了基本布局与会话记忆里的一部分代码" />
+    <MESSAGE value="feat: 文件操作入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 文件操作入门" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py_project01$02__.coverage" NAME="02. 文件操作入门 覆盖结果" MODIFIED="1775479843152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
+    <SUITE FILE_PATH="coverage/py_project01$02__.coverage" NAME="02. 文件操作入门 覆盖结果" MODIFIED="1775482701681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
     <SUITE FILE_PATH="coverage/py_project01$03_.coverage" NAME="03.输入与输出 覆盖结果" MODIFIED="1773929663269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$13___tuple.coverage" NAME="13. 数据容器-tuple 覆盖结果" MODIFIED="1774535847890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$12___str.coverage" NAME="12. 数据容器-str 覆盖结果" MODIFIED="1774529234721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
