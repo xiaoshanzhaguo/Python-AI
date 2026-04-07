@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI智能伴侣-会话管理-展示会话列表">
-      <change afterPath="$PROJECT_DIR$/第三章/08. ai_partner_6.py" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI智能伴侣-会话管理-加载会话">
+      <change afterPath="$PROJECT_DIR$/第三章/09. ai_partner_7.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/第三章/sessions/2026-04-07_14-33-47.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三章/sessions/2026-04-07_14-34-44.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三章/sessions/2026-04-07_15-53-50.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +280,7 @@
       <workItem from="1775393051647" duration="3432000" />
       <workItem from="1775456911435" duration="6481000" />
       <workItem from="1775466179504" duration="14232000" />
-      <workItem from="1775540143849" duration="8350000" />
+      <workItem from="1775540143849" duration="8719000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -611,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775544441410</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat: AI智能伴侣-会话管理-加载会话">
+      <option name="closed" value="true" />
+      <created>1775552276808</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1775552276808</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 函数进阶" />
     <MESSAGE value="feat: 函数进阶2" />
     <MESSAGE value="feat: 类型注解" />
     <MESSAGE value="feat: 导入模块" />
@@ -654,7 +660,8 @@
     <MESSAGE value="feat: AI智能伴侣-会话管理-保存会话" />
     <MESSAGE value="feat: AI智能伴侣-会话管理-新建会话" />
     <MESSAGE value="feat: AI智能伴侣-会话管理-展示会话列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AI智能伴侣-会话管理-展示会话列表" />
+    <MESSAGE value="feat: AI智能伴侣-会话管理-加载会话" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AI智能伴侣-会话管理-加载会话" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
