@@ -17,6 +17,10 @@ st.set_page_config(
     menu_items={}
 )
 
+# 生成会话标识函数
+def generate_session_name():
+    return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
 # 保存会话信息函数
 def sava_session():
     if st.session_state.current_session:
@@ -72,7 +76,7 @@ if "nature" not in st.session_state:
 
 # 会话标识
 if "current_session" not in st.session_state:
-    st.session_state.current_session = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    st.session_state.current_session = generate_session_name()
 
 # 展示聊天信息
 for message in st.session_state.messages: # {"role": "user", "content": prompt}
@@ -96,6 +100,11 @@ with st.sidebar:
         sava_session()
 
         # 2. 创建新的会话
+        if st.session_state.messages: # 如果聊天消息非空, True; 否则, False
+            st.session_state.messages = []
+            st.session_state.current_session = generate_session_name()
+            sava_session()
+            st.rerun()  # 重新运行当前页面
 
     # 昵称输入框
     nick_name = st.text_input("昵称", placeholder="请输入昵称", value=st.session_state.nick_name)

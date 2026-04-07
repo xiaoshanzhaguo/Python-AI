@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 文件操作-json">
-      <change afterPath="$PROJECT_DIR$/第三章/02. 基础入门.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三章/06. ai_partner_4.py" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI智能伴侣-会话管理-保存会话">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第三章/06. ai_partner_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/06. ai_partner_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +278,7 @@
       <workItem from="1775393051647" duration="3432000" />
       <workItem from="1775456911435" duration="6481000" />
       <workItem from="1775466179504" duration="14232000" />
-      <workItem from="1775540143849" duration="1232000" />
+      <workItem from="1775540143849" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -585,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775540193280</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat: AI智能伴侣-会话管理-保存会话">
+      <option name="closed" value="true" />
+      <created>1775541647221</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1775541647221</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 数据容器-dict" />
     <MESSAGE value="feat: 函数基础" />
     <MESSAGE value="feat: 函数案例" />
     <MESSAGE value="feat: 函数进阶" />
@@ -628,7 +634,8 @@
     <MESSAGE value="feat: 文件操作入门" />
     <MESSAGE value="feat: 文件操作-资源释放" />
     <MESSAGE value="feat: 文件操作-json" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 文件操作-json" />
+    <MESSAGE value="feat: AI智能伴侣-会话管理-保存会话" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AI智能伴侣-会话管理-保存会话" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_project01$02__.coverage" NAME="02. 基础入门 覆盖结果" MODIFIED="1775540588400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
