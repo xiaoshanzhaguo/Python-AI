@@ -82,7 +82,7 @@ def delete_session(session_name):
 st.title("AI智能伴侣")
 
 # Logo
-st.logo(image="resources/logo.png")
+st.logo(image="🧑🏻‍🤝‍🧑🏻")
 
 # 系统提示词
 system_prompt = """
