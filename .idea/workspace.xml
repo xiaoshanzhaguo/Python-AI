@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI智能伴侣-功能优化">
-      <change afterPath="$PROJECT_DIR$/第三章/02. 文件操作扩展.py" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: AI应用-知识拓展">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三章/resources/静夜思.txt" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/resources/静夜思.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +279,7 @@
       <workItem from="1775393051647" duration="3432000" />
       <workItem from="1775456911435" duration="6481000" />
       <workItem from="1775466179504" duration="14232000" />
-      <workItem from="1775540143849" duration="11395000" />
+      <workItem from="1775540143849" duration="16131000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -635,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775553666789</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat: AI应用-知识拓展">
+      <option name="closed" value="true" />
+      <created>1775555573103</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1775555573103</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 导入模块" />
     <MESSAGE value="feat: 自定义模块" />
     <MESSAGE value="feat: 模块-介绍" />
     <MESSAGE value="feat: 模块-包(package)" />
@@ -678,7 +683,8 @@
     <MESSAGE value="feat: AI智能伴侣-会话管理-加载会话" />
     <MESSAGE value="feat: AI智能伴侣-会话管理-删除会话" />
     <MESSAGE value="feat: AI智能伴侣-功能优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AI智能伴侣-功能优化" />
+    <MESSAGE value="feat: AI应用-知识拓展" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AI应用-知识拓展" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,7 +697,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py_project01$02__.coverage" NAME="02. 文件操作扩展 覆盖结果" MODIFIED="1775555162432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
+    <SUITE FILE_PATH="coverage/py_project01$02__.coverage" NAME="02. 文件操作扩展 覆盖结果" MODIFIED="1775555367564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
     <SUITE FILE_PATH="coverage/py_project01$03_.coverage" NAME="03.输入与输出 覆盖结果" MODIFIED="1773929663269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$13___tuple.coverage" NAME="13. 数据容器-tuple 覆盖结果" MODIFIED="1774535847890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$12___str.coverage" NAME="12. 数据容器-str 覆盖结果" MODIFIED="1774529234721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
