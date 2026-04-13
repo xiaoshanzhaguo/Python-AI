@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="fix: 尝试修复cloud部署logo报错问题">
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="fix: logo改为emoji表情">
+      <change afterPath="$PROJECT_DIR$/第四章/01. 网络机器人-入门程序.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三章/10. ai_partner_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/10. ai_partner_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,55 +59,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01. DeepSeek调用测试.executor": "Run",
-    "Python.01. 导入模块.executor": "Run",
-    "Python.01.入门程序.executor": "Run",
-    "Python.01.字面量与变量.executor": "Run",
-    "Python.02. json模块入门.executor": "Run",
-    "Python.02. 基础入门.executor": "Run",
-    "Python.02. 文件操作入门.executor": "Run",
-    "Python.02. 文件操作扩展.executor": "Run",
-    "Python.02.常见数据类型.executor": "Run",
-    "Python.03.输入与输出.executor": "Run",
-    "Python.04.运算符.executor": "Run",
-    "Python.05. if条件判断.executor": "Debug",
-    "Python.06. match模式匹配.executor": "Debug",
-    "Python.07. while循环.executor": "Debug",
-    "Python.08. for循环.executor": "Run",
-    "Python.09. 循环案例1.executor": "Run",
-    "Python.10. 循环案例2.executor": "Run",
-    "Python.11. 数据容器-list.executor": "Run",
-    "Python.12. 数据容器-str.executor": "Run",
-    "Python.13. 数据容器-tuple.executor": "Run",
-    "Python.14. 数据容器-set.executor": "Run",
-    "Python.15. 数据容器-dict.executor": "Run",
-    "Python.16. 函数基础.executor": "Run",
-    "Python.18. 函数进阶.executor": "Run",
-    "Python.19. 函数进阶2.executor": "Run",
-    "Python.20. 类型注解.executor": "Run",
-    "Python.21. 包.executor": "Run",
-    "Python.22. 面向对象基础.executor": "Run",
-    "Python.23. 面向对象基础案例.executor": "Run",
-    "Python.24. 面向对象基础练习.executor": "Run",
-    "Python.25. 异常处理.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.my_fun.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Study/Python+AI/Python-Project/py_project01/第三章",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01. DeepSeek调用测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01. 导入模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01. 网络机器人-入门程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01.入门程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01.字面量与变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02. json模块入门.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02. 基础入门.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02. 文件操作入门.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02. 文件操作扩展.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02.常见数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03.输入与输出.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04.运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05. if条件判断.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.06. match模式匹配.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.07. while循环.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.08. for循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09. 循环案例1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10. 循环案例2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11. 数据容器-list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12. 数据容器-str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13. 数据容器-tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14. 数据容器-set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15. 数据容器-dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16. 函数基础.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18. 函数进阶.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19. 函数进阶2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20. 类型注解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.21. 包.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22. 面向对象基础.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23. 面向对象基础案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.24. 面向对象基础练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25. 异常处理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_fun.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Study/Python+AI/Python-Project/py_project01/第三章&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Study\Python+AI\Python-Project\py_project01\第三章" />
@@ -116,7 +117,31 @@
       <recent name="E:\Study\Python+AI\Python-Project\py_project01\第二章" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02. 文件操作扩展">
+  <component name="RunManager" selected="Python.01. 网络机器人-入门程序">
+    <configuration name="01. 网络机器人-入门程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_project01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第四章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第四章/01. 网络机器人-入门程序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01. DeepSeek调用测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_project01" />
       <option name="ENV_FILES" value="" />
@@ -133,78 +158,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/01. DeepSeek调用测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02. 基础入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_project01" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 基础入门.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02. 文件操作扩展" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_project01" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 文件操作扩展.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02. json模块入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_project01" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. json模块入门.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,12 +190,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="02. 基础入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_project01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 基础入门.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02. json模块入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_project01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. json模块入门.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02. 文件操作扩展" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_project01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 文件操作扩展.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.02. 文件操作扩展" />
-        <item itemvalue="Python.02. 基础入门" />
+        <item itemvalue="Python.01. 网络机器人-入门程序" />
         <item itemvalue="Python.02. json模块入门" />
-        <item itemvalue="Python.02. 文件操作入门" />
         <item itemvalue="Python.01. DeepSeek调用测试" />
       </list>
     </recent_temporary>
@@ -280,7 +303,9 @@
       <workItem from="1775393051647" duration="3432000" />
       <workItem from="1775456911435" duration="6481000" />
       <workItem from="1775466179504" duration="14232000" />
-      <workItem from="1775540143849" duration="17627000" />
+      <workItem from="1775540143849" duration="18422000" />
+      <workItem from="1775916299912" duration="1511000" />
+      <workItem from="1776050267692" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -658,7 +683,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775648850595</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fix: logo改为emoji表情">
+      <option name="closed" value="true" />
+      <created>1775649452425</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1775649452425</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +709,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 模块-包(package)" />
     <MESSAGE value="feat: 面向对象基础-类与对象" />
     <MESSAGE value="feat: 面向对象基础-实例方法" />
     <MESSAGE value="feat: 面向对象基础-魔法方法" />
@@ -701,7 +733,8 @@
     <MESSAGE value="feat: AI应用-知识拓展" />
     <MESSAGE value="feat: 依赖清单" />
     <MESSAGE value="fix: 尝试修复cloud部署logo报错问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 尝试修复cloud部署logo报错问题" />
+    <MESSAGE value="fix: logo改为emoji表情" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: logo改为emoji表情" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,6 +770,7 @@
     <SUITE FILE_PATH="coverage/py_project01$20__.coverage" NAME="20. 类型注解 覆盖结果" MODIFIED="1774966605670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$14___set.coverage" NAME="14. 数据容器-set 覆盖结果" MODIFIED="1774601051904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$15___dict.coverage" NAME="15. 数据容器-dict 覆盖结果" MODIFIED="1774619543083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
+    <SUITE FILE_PATH="coverage/py_project01$01___.coverage" NAME="01. 网络机器人-入门程序 覆盖结果" MODIFIED="1775916753480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章" />
     <SUITE FILE_PATH="coverage/py_project01$18__.coverage" NAME="18. 函数进阶 覆盖结果" MODIFIED="1774790358571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$21__.coverage" NAME="21. 包 覆盖结果" MODIFIED="1775290121528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$09__1.coverage" NAME="09. 循环案例1 覆盖结果" MODIFIED="1774445233061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
