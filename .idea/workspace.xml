@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 网络机器人-入门-入门程序">
-      <change afterPath="$PROJECT_DIR$/第四章/02. 网络机器人-网页解析.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第四章/resources/仙逆人物志.html" afterDir="false" />
+    <list default="true" id="3401af57-5b11-4854-b460-05929ca57a88" name="更改" comment="feat: 网络机器人-网络解析">
+      <change afterPath="$PROJECT_DIR$/第四章/03. 网络机器人-Xpath语法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第四章/resources/仙逆人物志.html" beforeDir="false" afterPath="$PROJECT_DIR$/第四章/resources/仙逆人物志.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     &quot;Python.02. 文件操作扩展.executor&quot;: &quot;Run&quot;,
     &quot;Python.02. 网络机器人-网页解析.executor&quot;: &quot;Run&quot;,
     &quot;Python.02.常见数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03. 网络机器人-Xpath语法.executor&quot;: &quot;Run&quot;,
     &quot;Python.03.输入与输出.executor&quot;: &quot;Run&quot;,
     &quot;Python.04.运算符.executor&quot;: &quot;Run&quot;,
     &quot;Python.05. if条件判断.executor&quot;: &quot;Debug&quot;,
@@ -120,7 +121,7 @@
       <recent name="E:\Study\Python+AI\Python-Project\py_project01\第二章" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02. 网络机器人-网页解析">
+  <component name="RunManager" selected="Python.03. 网络机器人-Xpath语法">
     <configuration name="01. 网络机器人-入门程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_project01" />
       <option name="ENV_FILES" value="" />
@@ -193,30 +194,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02. 文件操作扩展" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_project01" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 文件操作扩展.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="02. 文件操作入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_project01" />
       <option name="ENV_FILES" value="" />
@@ -265,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02. 基础入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02. 文件操作扩展" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_project01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,7 +257,31 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 基础入门.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/02. 文件操作扩展.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03. 网络机器人-Xpath语法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_project01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第四章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第四章/03. 网络机器人-Xpath语法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,6 +292,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03. 网络机器人-Xpath语法" />
         <item itemvalue="Python.02. 网络机器人-网页解析" />
         <item itemvalue="Python.01. 网络机器人-入门程序" />
         <item itemvalue="Python.02. json模块入门" />
@@ -301,7 +303,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+        <option value="bundled-python-sdk-1cd77e80b48f-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.74" />
       </set>
     </attachedChunks>
   </component>
@@ -335,15 +337,8 @@
       <workItem from="1775916299912" duration="1511000" />
       <workItem from="1776050267692" duration="7334000" />
       <workItem from="1776077570696" duration="3985000" />
-      <workItem from="1776237008142" duration="368000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat: 数据存储与运算&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
-      <option name="closed" value="true" />
-      <created>1773997678327</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1773997678327</updated>
+      <workItem from="1776237008142" duration="2166000" />
+      <workItem from="1776418265539" duration="1163000" />
     </task>
     <task id="LOCAL-00002" summary="feat: if条件判断&#10;&#10;This reverts commit 3d37263679f720e70718a7bd05c60d580c7294e6.">
       <option name="closed" value="true" />
@@ -729,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776053325399</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat: 网络机器人-网络解析">
+      <option name="closed" value="true" />
+      <created>1776237410538</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1776237410539</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 面向对象基础-实例方法" />
     <MESSAGE value="feat: 面向对象基础-魔法方法" />
     <MESSAGE value="feat: 面向对象基础-实例属性与类属性" />
     <MESSAGE value="feat: 面向对象基础案例" />
@@ -772,7 +774,8 @@
     <MESSAGE value="fix: 尝试修复cloud部署logo报错问题" />
     <MESSAGE value="fix: logo改为emoji表情" />
     <MESSAGE value="feat: 网络机器人-入门-入门程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 网络机器人-入门-入门程序" />
+    <MESSAGE value="feat: 网络机器人-网络解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 网络机器人-网络解析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -801,7 +804,7 @@
     <SUITE FILE_PATH="coverage/py_project01$06__match.coverage" NAME="06. match模式匹配 覆盖结果" MODIFIED="1774345659243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$23__.coverage" NAME="23. 面向对象基础案例 覆盖结果" MODIFIED="1775311534800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$11___list.coverage" NAME="11. 数据容器-list 覆盖结果" MODIFIED="1774518613821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
-    <SUITE FILE_PATH="coverage/py_project01$02___.coverage" NAME="02. 网络机器人-网页解析 覆盖结果" MODIFIED="1776078848398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章" />
+    <SUITE FILE_PATH="coverage/py_project01$02___.coverage" NAME="02. 网络机器人-网页解析 覆盖结果" MODIFIED="1776238569516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章" />
     <SUITE FILE_PATH="coverage/py_project01$02__json.coverage" NAME="02. json模块入门 覆盖结果" MODIFIED="1775540265895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章" />
     <SUITE FILE_PATH="coverage/py_project01$10__2.coverage" NAME="10. 循环案例2 覆盖结果" MODIFIED="1774446627545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$24__.coverage" NAME="24. 面向对象基础练习 覆盖结果" MODIFIED="1775311747488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
@@ -812,6 +815,7 @@
     <SUITE FILE_PATH="coverage/py_project01$01___.coverage" NAME="01. 网络机器人-入门程序 覆盖结果" MODIFIED="1775916753480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章" />
     <SUITE FILE_PATH="coverage/py_project01$18__.coverage" NAME="18. 函数进阶 覆盖结果" MODIFIED="1774790358571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$21__.coverage" NAME="21. 包 覆盖结果" MODIFIED="1775290121528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
+    <SUITE FILE_PATH="coverage/py_project01$03___Xpath.coverage" NAME="03. 网络机器人-Xpath语法 覆盖结果" MODIFIED="1776239105686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章" />
     <SUITE FILE_PATH="coverage/py_project01$09__1.coverage" NAME="09. 循环案例1 覆盖结果" MODIFIED="1774445233061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
     <SUITE FILE_PATH="coverage/py_project01$01__.coverage" NAME="01. 导入模块 覆盖结果" MODIFIED="1774966782554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章/module01" />
     <SUITE FILE_PATH="coverage/py_project01$25__.coverage" NAME="25. 异常处理 覆盖结果" MODIFIED="1775311337436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
